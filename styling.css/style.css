@@ -16,3 +16,91 @@
 
 /*nav section*/
 
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.nav-img{
+    margin-left: 100px;
+}
+.nav-list-section ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+}
+.nav-list-section li{
+    list-style: none;
+}
+.nav-list-section a{
+    text-decoration: none;
+}
+.one{
+    color: black;
+}
+.two , .three{
+    color: rgba(137, 135, 161, 1.00);
+}
+.four{
+    color: black;
+}
+
+/*nav-responsive-mobile*/
+@media screen and (max-width:567px) {
+    .nav-list-home ,
+     .nav-list-shop ,
+     .nav-list-about{
+        display: none ;
+     }
+
+}
+/*banner-secton*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: end;
+    gap: 0;
+}
+.banner-text{
+    margin-left: 150px;
+}
+.banner h1{
+    font-size: 60px;
+    width: 500px;
+    height: 135px;   
+}
+.orange{
+    color: rgba(233, 90, 8, 1.00);
+}
+.banner p{
+    color: rgba(137, 135, 161, 1.00) ;
+    width: 400px;
+}
+.banner-img{
+    margin-right: 150px;  
+}
+.banner-img img{
+    width: 490px;
+    height: 290px;
+}
+/*banner-responsive-mobile*/
+
+
+/*section-one*/
+.section-one{
+    text-align: center;
+    margin-top: 80px;
+}
+.section-one h1{
+    font-size: 40px;
+    height: 30px;
+}
+.section-one p{
+    color: rgba(137, 135, 161, 1.00);
+}
+/*sec-one-responsive*/
+
+/*section-two*/
