@@ -114,7 +114,6 @@
 }
 .card-section{
     text-align: center;
-    
 }
 .card-section img{
     width: 250px;
@@ -135,4 +134,46 @@
     color: white;
     font-weight: bold;
     border: none;
+}
+
+/*sec-two-responsive*/
+
+/*section-three*/
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 2px;
+}
+.sec-three-img{
+    margin-left: 245px;
+}
+.flower-store{
+    width: 400px;
+    height: 430px;
+}
+.badge{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 310px;
+    top: 75px;
+}
+
+.sec-three-content{
+    margin-right: 245px;
+    
+}
+
+.sec-three-content h1{
+    font-size: 40px;
+    width: 400px;
+}
+.flower-list{
+
+}
+.flower-list li{
+    width: 300px;
+    color: rgba(137, 135, 161, 1.00);
+    height: 95px;
 }
