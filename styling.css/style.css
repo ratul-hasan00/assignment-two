@@ -104,3 +104,35 @@
 /*sec-one-responsive*/
 
 /*section-two*/
+.card{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.card-section{
+    text-align: center;
+    
+}
+.card-section img{
+    width: 250px;
+    height: 300px;
+}
+.card-section h3{
+    font-size: 18px;
+    height: 2px;
+}
+.card-section p{
+    font-size: 30px;
+    font-weight: bold;
+    height: 18px;
+}
+.btn-primary{
+    padding: 10px 75px;
+    background-color: rgba(233, 90, 8, 1.00);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
