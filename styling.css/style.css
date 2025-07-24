@@ -50,18 +50,21 @@
      .nav-list-about{
         display: none ;
      }
+     .nav-container{
+        align-items: center;
+     }
      .nav-img{
-        margin-left: 0;
+        margin-left: 5px;
      }
      .nav-img img{
         width: 80px;
      }
      .nav-list-section ul{
-        margin-right: 20px;
+        margin-right: 8px;
         gap: 0;
      }
      .nav-list-cart{
-        font-size: 12px;
+        font-size: 15px;
         width: 100%;
      }
      
@@ -108,15 +111,15 @@
 }
 .banner-img{
     margin-right: 0;
-    width: 417px;
+    width: 420px;
 }
 .banner-img img{
-    width: 397px;
+    width: 430px;
     height: 260px;
 }
 .banner-text{
     margin-left: 0;
-    width: 417px;
+    width: 410px;
     margin-top: 10px;
 }
 .banner h1{
@@ -195,17 +198,17 @@
     .card{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 10px;
-        margin-left: 3px;
+        gap: 15px;
+        margin-left: 0;
         margin-top: 80px;
     }
     .card-section img{
-        width: 190px;
+        width: 200px;
         height: 220px;
     }
     .btn-primary{
         font-size: 15px;
-        padding: 10px 43px;
+        padding: 10px 48px;
     }
     .card-section p{
         font-size: 22px;
@@ -264,7 +267,7 @@
         width: 420px;
     }
     .flower-store{
-        width: 385px;
+        width: 410px;
         height: 390px;
         margin-left: 8px;
         
@@ -274,7 +277,10 @@
     }
     .sec-three-content{
         margin-right: 0;
-        margin-top: 40px;
+        margin-top: 10px;
+    }
+    .sec-three-content h1{
+        font-size: 30px;
     }
 }
 
@@ -305,7 +311,7 @@
         width: 310px;
     }
     .sec-four{
-        margin-top: 80px;
+        margin-top: 50px;
     }
 }
 
@@ -319,11 +325,11 @@
     margin-top: 100px;
 }
 .five-one{
-    width: 300px;
+    width: 350px;
     margin-left: 237px;
 }
 .five-one img{
-    width: 290px;
+    width: 300px;
     height: 145px;
     border-radius: 14px;  
     filter: brightness(70%);
@@ -388,11 +394,11 @@
         margin-left: 0;
     }
     .five-one img{
-        width: 385px;
+        width: 410px;
         height: 200px;
     }
     .five-two img{
-        width: 385px;
+        width: 410px;
         height: 200px;
     }
     .five-one-first h3{
@@ -458,7 +464,7 @@
 /*sec-six-responsive*/
 @media screen and (max-width:567px){
     .sec-six{
-        width: 390px;
+        width: 415px;
         margin-top: 80px;
         margin-left: 0;    
     }
@@ -507,13 +513,12 @@
     .footer{
         flex-direction: column;
         align-items: flex-start;
-       margin-top: 80px;
+       margin-top: 50px;
     }
     .footer-first p{
         margin-left: 20px;
     }
-    .footer-list li{
-        margin-right: 50px;
+        
     }
     .footer-img{
          margin-left: 20px;
