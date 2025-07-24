@@ -50,6 +50,21 @@
      .nav-list-about{
         display: none ;
      }
+     .nav-img{
+        margin-left: 0;
+     }
+     .nav-img img{
+        width: 80px;
+     }
+     .nav-list-section ul{
+        margin-right: 20px;
+        gap: 0;
+     }
+     .nav-list-cart{
+        font-size: 12px;
+        width: 100%;
+     }
+     
 
 }
 
@@ -86,6 +101,34 @@
     height: 290px;
 }
 /*banner-responsive-mobile*/
+@media screen and (max-width:567px){
+.banner{
+    flex-direction: column-reverse;
+    margin-top: 10px;
+}
+.banner-img{
+    margin-right: 0;
+    width: 417px;
+}
+.banner-img img{
+    width: 397px;
+    height: 260px;
+}
+.banner-text{
+    margin-left: 0;
+    width: 417px;
+    margin-top: 10px;
+}
+.banner h1{
+    font-size: 45px;
+    height: 100px;
+    width: 360px;
+}
+.banner p{
+    width: 400px;
+}
+
+}
 
 
 
@@ -101,8 +144,16 @@
 }
 .section-one p{
     color: rgba(137, 135, 161, 1.00);
+    width: 650px;
+    margin-left: 335px;
 }
 /*sec-one-responsive*/
+@media screen and (max-width:567px){
+.section-one p{
+    width: 310px;
+    margin-left: 45px;
+}
+}
 
 
 
@@ -140,7 +191,31 @@
     border: none;
 }
 /*sec-two-responsive*/
-
+@media screen and (max-width:567px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin-left: 3px;
+        margin-top: 80px;
+    }
+    .card-section img{
+        width: 190px;
+        height: 220px;
+    }
+    .btn-primary{
+        font-size: 15px;
+        padding: 10px 43px;
+    }
+    .card-section p{
+        font-size: 22px;
+    }
+    .card-section h3{
+        font-size: 20px;
+        height: 10px;
+    }
+   
+}
 
 
 
@@ -179,6 +254,29 @@
     height: 95px;
 }
 /*sec-three-responsive*/
+@media screen and (max-width:567px){
+    .section-three{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .sec-three-img{
+        margin-left:0 ;
+        width: 420px;
+    }
+    .flower-store{
+        width: 385px;
+        height: 390px;
+        margin-left: 8px;
+        
+    }
+    .badge{
+        display: none;
+    }
+    .sec-three-content{
+        margin-right: 0;
+        margin-top: 40px;
+    }
+}
 
 
 
@@ -194,8 +292,22 @@
 }
 .sec-four p{
     color: rgba(137, 135, 161, 1.00);
+    width: 650px ;
+    margin-left: 335px;
 }
 /*sec-four-responsive*/
+@media screen and (max-width:567px){
+    .sec-four h1{
+        margin-right: 10px;
+    }
+    .sec-four p{
+        margin-left: 43px;
+        width: 310px;
+    }
+    .sec-four{
+        margin-top: 80px;
+    }
+}
 
 
 
@@ -265,6 +377,48 @@
     filter: brightness(70%); 
 }
 /*sec-five-responsive*/
+@media screen and (max-width:567px){
+    .sec-five{
+        flex-direction: column;
+        margin-left: 2px;  
+        margin-top: 80px;    
+    }
+    .five-one{
+        width: 406px;
+        margin-left: 0;
+    }
+    .five-one img{
+        width: 385px;
+        height: 200px;
+    }
+    .five-two img{
+        width: 385px;
+        height: 200px;
+    }
+    .five-one-first h3{
+        width: 100%;
+         position: absolute;
+        bottom: 55px;
+        left: 0;
+        font-size: 20px;
+    }
+    .five-one-second{
+        margin-bottom: 15px;
+    }
+    .five-one-second h2{
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        width: 100%;
+    }
+    .five-two h1{
+        font-size: 20px;
+        width: 200%;
+        position: absolute;
+        top: 55px;
+        left: 30px; 
+    }
+}
 
 
 
@@ -292,6 +446,7 @@
     width: 765px;
     height: 35px;
     border: none;
+    border-radius: 5px 0 0 5px;
 }
 .sec-six-description button{
     background-color: rgba(233, 90, 8, 1.00);
@@ -301,6 +456,24 @@
     padding: 11px 35px;
 }
 /*sec-six-responsive*/
+@media screen and (max-width:567px){
+    .sec-six{
+        width: 390px;
+        margin-top: 80px;
+        margin-left: 0;    
+    }
+    .sec-six-description h1{
+        font-size: 40px;
+        height: auto;
+    }
+    .sec-six-description input{
+        width: 190px;
+        
+    }
+    .sec-six-description button{
+        padding: 11px 18px;
+    }
+}
 
 
 
@@ -330,3 +503,19 @@
     margin-bottom: 210px;
 }
 /*footer-responsive*/
+@media screen and (max-width:567px){
+    .footer{
+        flex-direction: column;
+        align-items: flex-start;
+       margin-top: 80px;
+    }
+    .footer-first p{
+        margin-left: 20px;
+    }
+    .footer-list li{
+        margin-right: 50px;
+    }
+    .footer-img{
+         margin-left: 20px;
+    }
+}
