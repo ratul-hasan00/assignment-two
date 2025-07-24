@@ -56,7 +56,7 @@
 
 
 
-/*banner-secton*/
+/*banner-section*/
 .banner{
     display: flex;
     justify-content: space-between;
@@ -265,3 +265,68 @@
     filter: brightness(70%); 
 }
 /*sec-five-responsive*/
+
+
+
+
+/*section-six*/
+    
+.sec-six{
+    background-image: url(../assets/news-letter-bg.png);
+    width: 100%;
+    height: 530px;
+    filter: brightness(90%);
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.sec-six-description{
+    text-align: center;
+    padding-top: 145px;
+}
+.sec-six-description h1{
+    font-size: 55px;
+    height: 45px;
+    color: white;
+}
+.sec-six-description input{
+    width: 765px;
+    height: 35px;
+    border: none;
+}
+.sec-six-description button{
+    background-color: rgba(233, 90, 8, 1.00);
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 11px 35px;
+}
+/*sec-six-responsive*/
+
+
+
+
+/*footer-section*/
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+.footer-first p{
+    font-size: 18px;
+    width: 300px; 
+    color: rgba(107, 114, 128, 1.00);
+}
+.footer-list li{
+    list-style: none;
+    color: rgba(107, 114, 128, 1.00) ;
+    height: 50px;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 210px;
+}
+/*footer-responsive*/
