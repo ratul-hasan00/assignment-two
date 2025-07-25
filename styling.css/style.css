@@ -518,9 +518,10 @@
     .footer-first p{
         margin-left: 20px;
     }
-        
-    }
     .footer-img{
          margin-left: 20px;
+    }
+    .footer-list-one{
+        height: 250px;
     }
 }
