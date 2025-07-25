@@ -499,8 +499,12 @@
 }
 .footer-list li{
     list-style: none;
-    color: rgba(107, 114, 128, 1.00) ;
     height: 50px;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1.00) ; 
+
 }
 .footer-img{
     display: flex;
